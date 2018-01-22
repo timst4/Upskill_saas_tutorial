@@ -16,6 +16,28 @@
  
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
+ 
+ .navbar, .home-callout {
+    //Gradient provided by https://twitter.com/_ighosh
+    background: #3A1C71;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(left, #FFAF7B, #D76D77, #3A1C71);
+    background: -moz-linear-gradient(left, #FFAF7B, #D76D77, #3A1C71);
+    background: -o-linear-gradient(left, #FFAF7B, #D76D77, #3A1C71);
+    background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+ 
 h1,h2,h3 {
     font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    border: none;
+}
+
+.home-callout {
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:white;
 }
