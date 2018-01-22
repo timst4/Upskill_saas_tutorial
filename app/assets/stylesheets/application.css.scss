@@ -17,6 +17,7 @@
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
  
+ //Background Gradient
  .navbar, .home-callout {
     //Gradient provided by https://twitter.com/_ighosh
     background: #3A1C71;  /* fallback for old browsers */
@@ -25,25 +26,18 @@
     background: -o-linear-gradient(left, #FFAF7B, #D76D77, #3A1C71);
     background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  }
-
-.navbar-default .navbar-brand {
+//Navbar Styles
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a
+{
     color: white;
+    &:hover {
+        color: white;
+        opacity: 0.5;
+    }
 }
  
-.navbar-default .navbar-brand:hover {
-    color: white;
-    opacity: 0.5;
-} 
-    
-.navbar-default .navbar-nav > li > a {
-    color:white;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-    color:white;
-    opacity: 0.5;
-}
-
+//topography styles
 h1,h2,h3 {
     font-family: 'Open Sans', sans-serif;
 }
@@ -53,6 +47,7 @@ h1,h2,h3 {
     color: white;
 }
 
+//Homepae Styles
 .home-callout {
     margin-top: -20px;
     padding-top: 50px;
