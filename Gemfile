@@ -18,6 +18,9 @@ gem 'coffee-rails', '4.2.1'
 #Use Font Awesome SASS gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
 
+#Use hirb for better database table display
+gem 'hirb', '0.7.3'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails', '4.1.1'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
