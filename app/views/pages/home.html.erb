@@ -1,4 +1,101 @@
-<div class="home-callout text-center container-fluid">
-    <h1>Welcome to DevMatch</h1>
-    <h3>A membership site for entrepreneurs...</h3>
-</div>
+<!--<div class="home-callout text-center container-fluid">
+    <h1>Welcome to //SandBox// Laboratory</h1>
+    <h4>A website site for young dreamers, coders, gamers, and designers...</h4>
+</div> -->
+
+    
+<div id="myGallery" class="carousel slide" data-interval="false">
+ <div class="carousel-inner">
+    <div class="item active">
+      <%= image_tag("sample.one.jpg",
+                    alt: "Image description 1",
+                    class: "img-responsive") %>
+        <div class="carousel-caption">
+          <h3>Sample One</h3>
+          <p>Here is Sample Image One</p>
+        </div>
+    </div>
+    <div class="item">
+      <%= image_tag("sample.two.jpg",
+                    alt: "Image description 2", 
+                    class: "img-responsive") %>
+        <div class="carousel-caption">
+          <h3>Sample Two</h3>
+            <p>Here is Sample Image Two</p>
+        </div>
+    </div>
+    <div class="item">
+      <%= image_tag("sample.three.jpg",
+                    alt: "Image description 3", 
+                    class: "img-responsive") %>
+        <div class="carousel-caption">
+          <h3>Sample Three</h3>
+            <p>Here is Sample Image Three</p>
+        </div>
+    </div>
+    
+
+    <!--Begin Previous and Next buttons-->
+      <a class="left carousel-control" href="#myGallery" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control"
+        href="#myGallery" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div><!--end carousel-->
+    <div class = "container">
+      <div class="row top-buffer">
+        <div class="col-lg-4 text-center">
+          <%= image_tag("circle-thin.png",
+                    alt: "Generic Circle", 
+                    class: "rounded-circle",
+                    width: "140",
+                    height: "140") %>
+          <h2>Heading</h2>
+          <p>
+          One -  sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+          </p>
+          <p>
+            <%= link_to "View details »", root_path, class: 'btn btn-info', role: 'button' %>
+            <!--<a class="btn btn-secondary" href="#" role="button">View details »</a>-->
+          </p>
+        </div>
+
+      
+        <div class="col-lg-4 text-center">
+          <%= image_tag("circle-thin.png",
+                    alt: "Generic Circle", 
+                    class: "rounded-circle",
+                    width: "140",
+                    height: "140") %>
+          <h2>Heading</h2>
+          <p>
+          Two - Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+          </p>
+          <p>
+            <%= link_to "View details »", root_path, class: 'btn btn-info' %>
+            <!--<a class="btn btn-secondary" href="#" role="button">View details »</a>-->
+          </p>
+        </div>
+        <div class="col-lg-4 text-center">
+          <%= image_tag("circle-thin.png",
+                    alt: "Generic Circle", 
+                    class: "rounded-circle",
+                    width: "140",
+                    height: "140") %>
+          <h2>Heading</h2>
+          <p>
+          Three - Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+          </p>
+          <p>
+            <%= link_to "View details »", root_path, class: 'btn btn-info' %>
+            <!--<a class="btn btn-secondary" href="#" role="button">View details »</a>-->
+          </p>
+
+      </div>
+      </div>
+
+        
+      </div>
+
+        
+    </div>

@@ -21,13 +21,13 @@
  
  //Background Gradient
  .navbar, .home-callout {
-    //Gradient provided by https://twitter.com/_ighosh
-    background: #3A1C71;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(left, #FFAF7B, #D76D77, #3A1C71);
-    background: -moz-linear-gradient(left, #FFAF7B, #D76D77, #3A1C71);
-    background: -o-linear-gradient(left, #FFAF7B, #D76D77, #3A1C71);
-    background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- }
+     //Gradient provided by https://twitter.com/_ighosh
+     background: #000428;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(left, #004e92, #000428);
+     background: -moz-linear-gradient(left, #004e92, #000428);
+     background: -o-linear-gradient(left, #004e92, #000428);
+     background: linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
  
 //Navbar Styles
 .navbar-default .navbar-brand,
@@ -60,6 +60,16 @@ h1,h2,h3 {
 .navbar {
     border: none;
     color: white;
+    margin-bottom: 0px;
+}
+
+.navbar-right {
+    margin-right: 0;
+}
+
+//Contact New Styles
+.well {
+    background: #80c3ff;
 }
 
 //Homepae Styles
@@ -68,4 +78,31 @@ h1,h2,h3 {
     padding-top: 50px;
     padding-bottom: 50px;
     color:white;
+}
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.top-buffer { margin-top:20px; }
+
+//About Page Styles
+.text-white {
+    color: #fff;
+}
+.p-3 {
+    padding: 20px;
+}
+.rounded {
+    border-radius: 1px;
+}
+.bg-dark {
+    background-color: #343a40;
+}
+.jumbotron {
+    margin-bottom: 20px;
+}
+
+.logo-blue {
+    color:#004e92;
 }
