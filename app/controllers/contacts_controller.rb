@@ -8,7 +8,7 @@ class ContactsController < ApplicationController
       if @contact.save
         name = params[:contact][:name]
         email = params[:contact][:email]
-        mobile=params[:contact][:mobile]
+        mobile = params[:contact][:mobile]
         body = params[:contact][:comments]
         ContactMailer.contact_email(name, email, mobile, body).deliver
         flash[:success]="Message Sent!"
@@ -22,6 +22,6 @@ class ContactsController < ApplicationController
     
   private 
     def contact_params
-      params.require(:contact).permit(:name, :email, :mobile, :comments)
+      params.require(:contact).permit(:name, :email, :comments)
     end
 end
