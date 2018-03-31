@@ -7,4 +7,7 @@ class PagesController < ApplicationController
   
   def coding
   end
+  
+  def gamedesign
+  end
 end

@@ -16,7 +16,8 @@ gem 'coffee-rails', '4.2.1'
 # gem 'therubyracer', platforms: :ruby
 
 #Use Font Awesome SASS gem for adding icons
-gem 'font-awesome-sass', '4.6.2'
+#gem 'font-awesome-sass', '4.6.2'
+gem 'font-awesome-sass', '~> 5.0.9'
 
 #Use hirb for better database table display
 gem 'hirb', '0.7.3'

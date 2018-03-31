@@ -3,7 +3,7 @@
   <head>
     <title>Saasapp</title>
     <%= csrf_meta_tags %>
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -20,13 +20,15 @@
       </button>
       <!-- <a href="/" class="navbar-brand"><i class="fa fa-group"></i> DevMatch</a> -->
       <%= link_to root_path, class: "navbar-brand" do %>
-      <i class="fa fa-group"></i>
-      //SandBox//
+      <i class="fas fa-chess-rook"></i>
+      //SandBox// Laboratory
       <% end %>
     </div>
     <div class="collapse navbar-collapse" id="main-nav-collapse">
       <ul class="nav navbar-nav navbar-right">
         <!-- <li><a href="/about">About</a></li> -->
+        <li><%= link_to "Coding", coding_path %></li>
+        <li><%= link_to "Game Design", gamedesign_path %></li>
         <li><%= link_to "About", about_path %></li>
         <li><%= link_to "Contact us", new_contact_path %></li>
       </ul>
@@ -37,7 +39,8 @@
       <% flash.each do |type,msg| %>
         <%= content_tag :div, msg, class: "alert alert-#{type}" %>
       <% end %>
-    </div>
+    </div> 
+    
     <%= yield %>
     
   </body>

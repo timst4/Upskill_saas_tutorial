@@ -20,7 +20,7 @@
  @import "font-awesome";
  
  //Background Gradient
- .navbar, .home-callout {
+ .navbar, .about-callout {
      //Gradient provided by https://twitter.com/_ighosh
      background: #000428;  /* fallback for old browsers */
      background: -webkit-linear-gradient(left, #004e92, #000428);
@@ -28,7 +28,9 @@
      background: -o-linear-gradient(left, #004e92, #000428);
      background: linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
+  
  
+  
 //Navbar Styles
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a
@@ -54,8 +56,10 @@
 
 //topography styles
 h1,h2,h3 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: white;
 }
+
 
 .navbar {
     border: none;
@@ -72,6 +76,10 @@ h1,h2,h3 {
     background: #80c3ff;
 }
 
+
+.form-line {
+    border-right: 1px solid #B29999;
+}
 //Homepae Styles
 .home-callout {
     margin-top: -20px;
@@ -100,9 +108,29 @@ h1,h2,h3 {
     background-color: #343a40;
 }
 .jumbotron {
-    margin-bottom: 20px;
+    background-color: #cedddd;
 }
 
 .logo-blue {
     color:#004e92;
+}
+
+.header-gradient {
+    margin-top: 0px;
+}
+
+.my-3 {
+    color:white;
+}
+
+.mh1 {
+    height:50px;
+}
+
+.mh2 {
+    height:80px;
+}
+
+.bm1 {
+    margin-bottom:20px;
 }
