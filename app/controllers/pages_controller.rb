@@ -5,6 +5,7 @@ class PagesController < ApplicationController
   def about
   end
   
+
   def earlycoders
   end
   
@@ -13,6 +14,8 @@ class PagesController < ApplicationController
   
   def cstutoring
   end
+  
+  
   
   def builds
   end
