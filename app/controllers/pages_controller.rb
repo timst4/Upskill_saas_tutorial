@@ -5,9 +5,21 @@ class PagesController < ApplicationController
   def about
   end
   
-  def coding
+  def earlycoders
   end
   
   def gamedesign
+  end
+  
+  def cstutoring
+  end
+  
+  def builds
+  end
+  
+  def mobileapps
+  end
+  
+  def webdesign
   end
 end
