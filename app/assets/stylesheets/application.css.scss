@@ -55,11 +55,15 @@
 }
 
 //topography styles
-h1,h2,h3 {
+h1,h2,h3, h4, h5, h6 {
     font-family: 'Rubik', sans-serif;
     color: white;
 }
 
+.emph {
+    font-family: 'Oleo Script', cursive;
+    font-size: 500%;
+}
 
 .navbar {
     border: none;
@@ -98,6 +102,11 @@ h1,h2,h3 {
 .text-white {
     color: #fff;
 }
+
+.ico-lg {
+    font-size: 1000%;
+    float: right;
+}
 .p-3 {
     padding: 20px;
 }
@@ -133,4 +142,114 @@ h1,h2,h3 {
 
 .bm1 {
     margin-bottom:20px;
+}
+
+.top-buffer { 
+    margin-top:20px; 
+}
+
+/**********************
+/***** Services *******
+/*********************/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section{
+	padding: 10px 0;
+}
+section .section-title{
+	text-align:center;
+	color:#fff;
+	margin-bottom:50px;
+	text-transform:uppercase;
+}
+#what-we-do{
+     //Gradient provided by https://twitter.com/_ighosh
+     background: #000428;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(left, #004e92, #000428);
+     background: -moz-linear-gradient(left, #004e92, #000428);
+     background: -o-linear-gradient(left, #004e92, #000428);
+     background: linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#what-we-do .card{
+	padding: 1rem!important;
+	border: none;
+	margin-bottom:1rem;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+#what-we-do .card-text {
+    color:#fff;
+}
+
+#what-we-do .card-title {
+    color:#00e2e2;
+}
+
+#what-we-do .read-more:hover {
+    color:#00e2e2;
+}
+#what-we-do .card:hover{
+	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#what-we-do .card .card-block{
+	padding-left: 50px;
+    position: relative;
+}
+#what-we-do .card .card-block a{
+	color: #fff !important;
+	font-weight:700;
+	text-decoration:none;
+}
+
+#what-we-do .card .card-block a:hover{
+	color:#00e2e2  !important;
+
+}
+#what-we-do .card .card-block a i{
+	display:none;
+	
+}
+#what-we-do .card:hover .card-block a i{
+	display:inline-block;
+	font-weight:700;
+	color:#00e2e2;
+	
+}
+#what-we-do .card .card-block:before{
+	font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #fff;
+    left: 0;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#what-we-do .card .block-1:before{
+    content: "\f0e7";
+}
+#what-we-do .card .block-2:before{
+    content: "\f19d";
+    font-size: 30px;
+}
+#what-we-do .card .block-3:before{
+    content: "\f1b0";
+}
+#what-we-do .card .block-4:before{
+    content: "\f0a0";
+}
+#what-we-do .card .block-5:before{
+    content: "\f10b";
+}
+#what-we-do .card .block-6:before{
+    content: "\f121";
+}
+#what-we-do .card:hover .card-block:before{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);	
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
 }

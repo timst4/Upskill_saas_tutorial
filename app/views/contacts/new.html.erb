@@ -1,46 +1,47 @@
 <div class ="about-callout">
 <div class="container">
-  <div class ="row mh2">
-    <h1 class="text-center">Contact Us!</h1>
-  </div>
-  <!--<div class="row">
-      <div class ="col-md-6">
-    
-        <h4>We would love to hear from you!  Fill out the fields to the right if you have questions about how we are helping kids to succeed in technology
-        and computer science.  If you would like to schedule a preliminary consultation, please mention a few times that will work for you in the near future.
-        We can provide tutoring services in area libraries, coffeeshops, or even your own home.  Tutoring services or followup appointments can also be 
-        facilitated over Skype.  Please let us know if this is your preference.</h4>
-        
-      </div> -->
-        <div class="well">
+ 
+      <div class = "row">
+        <h1 class="text-center emph">Get in Touch!</h1>
+      </div>
+      <div class="row top-buffer">
+      <div class = "col-md-6 form-line">
           <%= form_for @contact do |f| %>
           
             <div class="form-group">
-              <%= f.label :"name*" %>
-              <%= f.text_field :name, class:'form-control' %>
+              <%= f.label :"name*",style:'color:white' %>
+              <%= f.text_field :name, class:'form-control', placeholder:'Enter Name' %>
             </div>
            
             <div class="form-group">
-              <%= f.label :"email*" %>
-              <%= f.text_field :email, class:'form-control' %> 
+              <%= f.label :"email*",style:'color:white' %>
+              <%= f.text_field :email, class:'form-control', placeholder:'Enter full email address' %> 
             </div>
             
             <div class="form-group">
-              <%= f.label :'Mobile Number' %>
-              <%= f.text_field :mobile, class:'form-control' %> 
+              <%= f.label :'Mobile Number',style:'color:white' %>
+              <%= f.text_field :mobile, class:'form-control', placeholder:'Enter 10-digit mobile no.' %> 
+            </div>
+            
+
+      </div>
+          <div class = "col-md-6">
+            <div class="form-group">
+              <%= f.label :"message*",style:'color:white' %>
+              <%= f.text_area :comments, class:'form-control', placeholder:'Enter your message', :cols => 10, :rows => 6 %> 
             </div>
 
-           <div class="form-group">
-              <%= f.label :"comments*" %>
-              <%= f.text_area :comments, class:'form-control' %> 
-            </div>
-          
-            <%= f.submit 'Submit', class: 'btn btn-default' %>
-          
-          <% end %>
+
+            <%= button_tag type: 'submit', class: "btn btn-info", style: "position: absolute; right: 2%;" do %>
+               <i class="fa fa-paper-plane" aria-hidden="true"></i> Send Message
+            <% end %>
+            <% end %>
           </div>
       </div>
-    </div> 
-  </div>  
+      <div class = "row mh1">
+        <h6>*required</h6>
+      </div>
 </div>
 </div>
+
+
