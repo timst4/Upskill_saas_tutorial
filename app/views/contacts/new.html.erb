@@ -31,7 +31,9 @@
               <%= f.label :"message*",style:'color:white' %>
               <%= f.text_area :comments, class:'form-control', placeholder:'Enter your message', :cols => 10, :rows => 6 %>
             </div>
-              <%= f.submit 'Submit', class: 'btn btn-default' %>          
+               <%= button_tag type: 'submit', class: "btn btn-info", style: "position: absolute; right: 2%" do %>
+               <i class="fa fa-paper-plane" aria-hidden="true"></i> Whoooosh!
+              <% end %>         
               <% end %>
             
             
