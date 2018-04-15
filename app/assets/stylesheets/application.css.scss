@@ -71,6 +71,24 @@ h1,h2,h3, h4, h5, h6 {
     color:#000428;
 }
 
+.emph-blue-md {
+    font-family: 'Oleo Script', cursive;
+    font-size: 375%;
+    color:#000428;
+}
+
+.emph-blue-sm {
+    font-family: 'Oleo Script', cursive;
+    font-size: 200%;
+    color:#000428;
+}
+
+.copy-black {
+    font-family: 'Rubik', sans-serif;
+    font-size: 120%;
+    color: black;
+}
+
 .navbar {
     border: none;
     color: white;
@@ -79,6 +97,13 @@ h1,h2,h3, h4, h5, h6 {
 
 .navbar-right {
     margin-right: 0;
+}
+
+//Image Styles
+
+.img-float-left {
+    padding: 0 15px; 
+    float: left;
 }
 
 //Contact New Styles
@@ -323,7 +348,7 @@ blockquote{
     background-color: #1d85e0;
     margin-top: 25px;
     color:white;
-    width: 325px;
+    width: 280px;
     box-shadow: 2px 2px 2px 2px #E0E0E0;
     
 }

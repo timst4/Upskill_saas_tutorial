@@ -51,7 +51,7 @@
       <!-- <a href="/" class="navbar-brand"><i class="fa fa-group"></i> DevMatch</a> -->
       <%= link_to root_path, class: "navbar-brand" do %>
       <i class="fas fa-chess-rook"></i>
-      //SandBox// Laboratory
+      //SandBox// Lab
       <% end %>
     </div>
     <div class="collapse navbar-collapse" id="main-nav-collapse">
@@ -62,11 +62,6 @@
           <% end %>
         </li>
         <li>
-          <%= link_to cstutoring_path do %>
-          <i class="fas fa-graduation-cap"></i> Comp Science Tutoring
-          <% end %>
-        </li>
-        <li>
           <%= link_to earlycoders_path do %>
           <i class="fas fa-paw"></i> Early Coders
           <% end %>
@@ -74,6 +69,11 @@
         <li>
           <%= link_to builds_path do %>
           <i class="far fa-hdd"></i> Computer Builds
+          <% end %>
+        </li>
+        <li>
+          <%= link_to cstutoring_path do %>
+          <i class="fas fa-graduation-cap"></i> CS Tutoring
           <% end %>
         </li>
         <li>
