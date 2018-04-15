@@ -25,4 +25,7 @@ class PagesController < ApplicationController
   
   def webdesign
   end
+  
+  def literacy
+  end
 end

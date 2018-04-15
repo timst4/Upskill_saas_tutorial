@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   get 'builds', to: 'pages#builds'
   get 'mobileapps', to: 'pages#mobileapps'
   get 'webdesign', to: 'pages#webdesign'
+  get 'literacy', to: 'pages#literacy'
 end
